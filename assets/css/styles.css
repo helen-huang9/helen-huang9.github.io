@@ -1,0 +1,28 @@
+div {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+}
+
+.half {
+    flex: 50%;
+    padding: 5px;
+}
+.third {
+    flex: 33.33%;
+    padding: 10px;
+}
+.two-thirds {
+    flex: 66.66%;
+    padding: 10px;
+}
