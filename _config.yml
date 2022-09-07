@@ -52,12 +52,18 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://helen-huang9.github.io"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:helen_huang@brown.edu"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/helen-huang9"
 
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:helen_huang@brown.edu"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/helen-huang9"

@@ -2,9 +2,10 @@
 permalink: /artwork/
 title: "Artwork"
 author_profile: true
+collection: portfolio
 
 toc: true
-toc_label: "My Portfolio"
+toc_label: "Portfolio"
 toc_icon: "palette"
 toc_sticky: true
 
