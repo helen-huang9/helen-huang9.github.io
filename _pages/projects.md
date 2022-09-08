@@ -47,7 +47,7 @@ The following are some of the NeRF videos I helped produce during my research wi
 
 These videos are 3D continuous scenes learned from a sparse set of images using a deep neural network. The object models and camera data was created and sampled in Blender.
 
-<video width="550" controls>
+<video width="600" controls>
     <source src="../assets/images/research/volsdfHand.mp4">
 </video>
 
