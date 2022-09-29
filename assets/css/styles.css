@@ -20,9 +20,9 @@ div {
 }
 .third {
     flex: 33.33%;
-    padding: 10px;
+    padding: 40px;
 }
 .two-thirds {
     flex: 66.66%;
-    padding: 10px;
+    padding: 40px;
 }

@@ -37,7 +37,7 @@ Cat Ninja is an iOS game created in Swift using SwiftUI and SpriteKit. As a cat 
 
 {% include gallery id="gallery_catninja" layout="third" %}
 
-<video width="300" controls>
+<video width="300" controls style="display: block; margin: auto;">
     <source src="../assets/images/personal_projects/SamuraiCatPreview.mp4">
 </video>
 
@@ -47,15 +47,15 @@ The following are some of the NeRF videos I helped produce during my research wi
 
 These videos are 3D continuous scenes learned from a sparse set of images using a deep neural network. The object models and camera data was created and sampled in Blender.
 
-<video width="600" controls>
+<video width="100%" controls>
     <source src="../assets/images/research/volsdfHand.mp4">
 </video>
 
-<video width="300" controls>
+<video width="49%" controls>
     <source src="../assets/images/research/burger_pytorch.mp4">
 </video>
 
-<video width="300" controls>
+<video width="49%" controls>
     <source src="../assets/images/research/hand_spiral.mp4">
 </video>
 
@@ -81,7 +81,7 @@ I created a functioning Iron Man helmet for my ENGN 0032 Intro to Engineering: D
 
 {% include gallery id="gallery_ironman" layout="half" caption="Documented progress of prototype to final product" %}
 
-<video width="500" controls>
+<video width="500" controls style="display: block; margin: auto;">
     <source src="../assets/images/courses/ironman_working.mp4">
 </video>
 
@@ -89,5 +89,5 @@ I created a functioning Iron Man helmet for my ENGN 0032 Intro to Engineering: D
 I wrote, composed, and produced a song for my MUSC 0400B Intro to Popular Music Theory final project.
 
 <audio controls>
-    <source src="../assets/images/courses/song.m4a">
+    <source src="../assets/images/courses/song.m4a" style="display: block; margin: auto;">
 </audio>
