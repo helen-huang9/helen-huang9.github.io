@@ -57,7 +57,7 @@ author:
       url: "https://github.com/helen-huang9"
     - label: CV
       icon: "far fa-fw fa-file-pdf"
-      url: "/assets/images/helen-huang-resume.pdf"
+      url: "/assets/resume.pdf"
 
 footer:
   links:
@@ -69,7 +69,7 @@ footer:
       url: "https://github.com/helen-huang9"
     - label: CV
       icon: "far fa-fw fa-file-pdf"
-      url: "/assets/images/helen-huang-resume.pdf"
+      url: "/assets/resume.pdf"
 
 defaults:
   # _pages
