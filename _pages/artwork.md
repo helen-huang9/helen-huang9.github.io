@@ -28,7 +28,18 @@ gallery_hs:
 ---
 Helen Huang's art portfolio.
 
-## 2D Artwork (2020-present)
+## 3D Artwork (2021)
+Created in Maya.
+
+<image src="../assets/images/3d_art/hhuang65_light_final.png" style="padding-bottom: 10px;"/>
+
+<video width="640" controls>
+    <source src="../assets/images/3d_art/hhuang65_shade_final.mp4">
+</video>
+
+<iframe src="https://drive.google.com/file/d/1IgrzXC2v13niZ3Q_84eZzu9HJ_KljJ2v/preview" width="640" height="480" allow="autoplay"></iframe>
+
+## 2D Artwork (2020)
 Created in Procreate.
 
 {% include gallery id="gallery1_2d" %}

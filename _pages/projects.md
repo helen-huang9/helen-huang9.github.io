@@ -13,6 +13,13 @@ gallery_catninja:
     - image_path: ../assets/images/personal_projects/SamuraiCat5.png
     - image_path: ../assets/images/personal_projects/SamuraiCat1.png
 
+gallery_ink:
+    - image_path: ../assets/images/courses/ink1.png
+    - image_path: ../assets/images/courses/ink2.png
+
+gallery_signature:
+    - image_path: ../assets/images/courses/signature_forgery.png
+
 gallery_depth1:
     - image_path: ../assets/images/courses/Squishy_Color.JPG
     - image_path: ../assets/images/courses/Squishy_Depth.png
@@ -24,7 +31,7 @@ gallery_ironman:
     - image_path: ../assets/images/courses/ironman_helmet_open.jpeg
 ---
 
-Helen Huang's class, personal, and research projects.
+Helen Huang's personal, research, and course projects.
 
 # Personal Projects
 
@@ -60,6 +67,27 @@ These videos are 3D continuous scenes learned from a sparse set of images using 
 </video>
 
 # Course Projects
+
+## Ink Simulation
+I created a physics-based ink simulation of ink diffusing in water for my CSCI 2240 Advanced Computer Graphics project with Austin Miles, Mandy He, and Tianran Zhang. This project was based off of the two papers, "Interactive Visual Simulation of Dynamic Ink Diffusion Effects" and "Fluid Flow for the Rest of Us." 
+
+The water is simulated as a velocity grid which is updated per timestep using the Navier-Stokes equations. After the water is updated, the ink particles are then convected through the velocity grid. Each timestep is saved as a .ply file containing the positions of all the ink particles which were then rendered sequentially in Blender. Implemented in C++ and rendered in Blender. [[Github]](https://github.com/gizmo1479/DaDDi).
+
+I independently created a real-time version of this project in Swift using Metal. [[Github]](https://github.com/helen-huang9/Ink_Simulation).
+
+{% include gallery id="gallery_ink" layout="half" %}
+
+<video width="600" controls>
+    <source src="../assets/images/courses/ink_best.mp4">
+</video>
+
+## Signature Forgery Detector
+I created a signature forgery detector for my CSCI 1470 Deep Learning final project with Josh Kruzan and Pavani Neralla. 
+
+We implemented several different models to test their accuracies, including a CNN, Vision Transformer, Siamese CNN, and Siamese Vision Transformer. We further examined what features of the signatures that the models identified were important in classification by running LIME (Local Interpretable Model-Agnostic Explanations) using our models and datasets. Implemented in Python using Tensorflow. [[Github]](https://github.com/helen-huang9/GAN-DLD)
+
+{% include gallery id="gallery_signature" %}
+
 ## Depth Capture System
 I created a depth capture system as part of my CSCI 1430 Computer Vision final project with Kate Nelson, Angela Xing, and Lo McKeown. I developed an app that capture RGB images and its corresponding depth data, then visualize scene as a 3D voxel model. Implemented in Swift and Python. [[Github]](https://github.com/helen-huang9/Depth-Capture-System)
 
