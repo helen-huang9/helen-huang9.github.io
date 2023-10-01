@@ -8,6 +8,11 @@ toc_label: "Projects"
 toc_icon: "stream"
 toc_sticky: true
 
+gallery_chatai:
+    - image_path: ../assets/images/personal_projects/chatai-home-screen.png
+    - image_path: ../assets/images/personal_projects/chatai-conan-convo.png
+    - image_path: ../assets/images/personal_projects/chatai-spiderman-convo.png
+
 gallery_catninja:
     - image_path: ../assets/images/personal_projects/SamuraiCat2.png
     - image_path: ../assets/images/personal_projects/SamuraiCat5.png
@@ -34,13 +39,21 @@ gallery_ironman:
 Helen Huang's personal, research, and course projects.
 
 # Personal Projects
+Passion projects I made because I thought it would be cool :)
+
+## ChatAI Website
+ChatAI is a full-stack website I designed and developed. Users can chat with AI celebrities, famous movie/book characters, and even inanimate objects! 
+
+I used React, Next.js 13, and Tailwind CSS for the front-end, and MongoDB and ChatGPT's Chat Completions API for the back-end.
+
+Check out the website here: <a href="https://chat-ai-helen-huang9.vercel.app">chat-ai-helen-huang9.vercel.app</a>
+
+{% include gallery id="gallery_chatai" layout="one" %}
 
 ## Cat Ninja iOS Game
 Cat Ninja is an iOS game created in Swift using SwiftUI and SpriteKit. As a cat ninja, swipe cat toys and avoid water balloons. Score points and gain combos before the time runs out! [[Github]](https://github.com/helen-huang9/CatNinja)
 
 *Artwork created by Helen Huang using Procreate.*
-
-**Soon to be released on the App Store as* Samurai Cat
 
 {% include gallery id="gallery_catninja" layout="third" %}
 
@@ -49,10 +62,10 @@ Cat Ninja is an iOS game created in Swift using SwiftUI and SpriteKit. As a cat 
 </video>
 
 # Research
-## NeRF Models
-The following are some of the NeRF videos I helped produce during my research with Prof. Sridhar in the Brown Interactive 3D Vision & Learning Lab. 
+Research work under Prof. Sridhar in the Brown Interactive 3D Vision and Learning Lab.
 
-These videos are 3D continuous scenes learned from a sparse set of images using a deep neural network. The object models and camera data was created and sampled in Blender.
+## NeRF Models
+The following are some of the NeRF videos I helped produce. These videos are 3D continuous scenes learned from a sparse set of images using a deep neural network. The object models and camera data was created and sampled in Blender.
 
 <video width="100%" controls>
     <source src="../assets/images/research/volsdfHand.mp4">
@@ -67,6 +80,7 @@ These videos are 3D continuous scenes learned from a sparse set of images using 
 </video>
 
 # Course Projects
+Cool final projects I made in my CS courses at Brown.
 
 ## Ink Simulation
 I created a physics-based ink simulation of ink diffusing in water for my CSCI 2240 Advanced Computer Graphics project with Austin Miles, Mandy He, and Tianran Zhang. This project was based off of the two papers, "Interactive Visual Simulation of Dynamic Ink Diffusion Effects" and "Fluid Flow for the Rest of Us." 
